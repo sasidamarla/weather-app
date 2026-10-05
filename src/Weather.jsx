@@ -17,7 +17,7 @@ export const Weather = () => {
 
     try {
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=65f80172554a85335c99d261b1d42abb&units=metric`,
+        `YOUR_API_KEY`,
       );
       const data = await response.json();
 
